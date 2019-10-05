@@ -32,7 +32,7 @@ public class ClientController {
         return clientService.get(id);
     }
 
-    @PatchMapping("/create")
+    @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     public Client createOffer(@RequestBody Client client){
 
