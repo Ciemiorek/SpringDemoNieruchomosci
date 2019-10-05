@@ -27,6 +27,7 @@ public class ClientService {
     }
 
     public Client get(int id) {
+        
         return clientRepository.findById(id);
     }
 
